@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Push README to Quay.io
     env:
-      REGISTRY: quay.io/troyer
+      REGISTRY: quay.io/jonkeyguan
       IMAGE_NAME: mlflow-server
     steps:
       - name: git checkout

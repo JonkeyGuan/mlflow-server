@@ -21,9 +21,9 @@ This chart utilizes components from the Crunch Postgres Operator and OpenShift D
 To access charts from this from the cli repository add it:
 
 ```sh
-helm repo add strangiato https://strangiato.github.io/helm-charts/
+helm repo add strangiato https://jonkeyguan.github.io/helm-charts/
 helm repo update
-helm install [release-name] strangiato/mlflow-server
+helm install [release-name] jonkeyguan/mlflow-server
 ```
 
 To include a chart from this repository in an umbrella chart, include it in your dependencies in your `Chart.yaml` file.
@@ -41,13 +41,13 @@ appVersion: "1.16.0"
 dependencies:
   - name: "mlflow-server"
     version: "0.5.6"
-    repository: "https://strangiato.github.io/helm-charts/"
+    repository: "https://jonkeyguan.github.io/helm-charts/"
 ```
 
 ## Source Code
 
-* <https://github.com/strangiato/helm-charts/tree/main/charts/mlflow-server>
-* <https://github.com/strangiato/mlflow-server>
+* <https://github.com/jonkeyguan/helm-charts/tree/main/charts/mlflow-server>
+* <https://github.com/jonkeyguan/mlflow-server>
 
 ## Requirements
 
@@ -55,7 +55,7 @@ Kubernetes: `>= 1.21.0`
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://strangiato.github.io/helm-charts/ | postgrescluster | 0.2.2 |
+| https://jonkeyguan.github.io/helm-charts/ | postgrescluster | 0.2.2 |
 
 ## Values
 

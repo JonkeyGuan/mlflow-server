@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BASE_IMAGE: 'registry.access.redhat.com/ubi9/python-311:latest'
-      REGISTRY: quay.io/troyer
+      REGISTRY: quay.io/jonkeyguan
       IMAGE_NAME: mlflow-server-training-test
       MAIN_TAG: latest-dev
       
