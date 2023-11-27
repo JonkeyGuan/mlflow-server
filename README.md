@@ -2,7 +2,7 @@
 
 An MLFlow Server designed to work with OpenShift.
 
-[![Build Image](https://github.com/strangiato/mlflow-server/actions/workflows/build-image.yml/badge.svg)](https://github.com/strangiato/mlflow-server/actions/workflows/build-image.yml)
+[![Build Image](https://github.com/jonkeyguan/mlflow-server/actions/workflows/build-image.yml/badge.svg)](https://github.com/jonkeyguan/mlflow-server/actions/workflows/build-image.yml)
 
 [![GitHub](https://img.shields.io/badge/GitHub-repo-blue.svg)](https://github.com/strangiato/mlflow-server) [![Quay.io](https://img.shields.io/badge/Quay.io-image-blue.svg)](https://quay.io/repository/troyer/mlflow-server)
 
@@ -21,7 +21,7 @@ This chart utilizes components from the Crunch Postgres Operator and OpenShift D
 To access charts from this from the cli repository add it:
 
 ```sh
-helm repo add strangiato https://jonkeyguan.github.io/helm-charts/
+helm repo add jonkeyguan https://jonkeyguan.github.io/helm-charts/
 helm repo update
 helm install [release-name] jonkeyguan/mlflow-server
 ```
