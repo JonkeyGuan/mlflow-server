@@ -46,6 +46,6 @@ dependencies:
 
 ## Source Code
 
-* <https://github.com/jonkeyguan/jonkeyguan.github.io/tree/main/helm-charts/mlflow-server>
+* <https://github.com/JonkeyGuan/helm-charts/tree/main/charts/mlflow-server>
 * <https://github.com/jonkeyguan/mlflow-server>
 
